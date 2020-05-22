@@ -2,11 +2,24 @@ body {
   margin: 0;
   background-color: #ddd;
 }
+
 .Container {
   width: 80%;
   margin: 0 auto;
   background-color: white;
   height: 100vh;
+}
+
+#num1 {
+  border: 2px solid blue;
+  border-radius: 4px;
+  padding: 7px 10px;
+}
+
+#num2 {
+  border: 2px solid blue;
+  border-radius: 4px;
+  padding: 7px 10px;
 }
 
 .Calculator {

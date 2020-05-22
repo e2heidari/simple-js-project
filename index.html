@@ -1,19 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Calculator</title>
-    <link rel="stylesheet" href="index.css" />
-    <script src="index.js"></script>
-  </head>
-  <body>
-    <div class="Container">
-      <div class="Calculator">
-        <button onclick="handleOnClick()">Click me!</button>
-        <div id="resultSum" class="Result">0</div>
-        <div id="resultMinus" class="Result">0</div>
-      </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calculator</title>
+  <link rel="stylesheet" href="index.css" />
+  <script src="index.js"></script>
+</head>
+
+<body>
+  <div class="Container">
+    <div class="Calculator">
+      <button onclick="handleOnClick()">Click me!</button>
+      <label for="num1">Number1</label>
+      <input type="text" id="num1" name="firstnumber" placeholder="Your first number..">
+      <label for="num1">Number2</label>
+      <input type="text" id="num2" name="secondnumber" placeholder="Your second number..">
+      <div id="resultSum" class="Result">0</div>
+      <div id="resultMinus" class="Result">0</div>
     </div>
-  </body>
+  </div>
+</body>
+
 </html>
