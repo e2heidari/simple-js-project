@@ -14,11 +14,15 @@
     <div class="Calculator">
       <label for="num1">Number1</label>
       <input type="text" id="num1" name="firstnumber" placeholder="Your first number..">
-      <label for="num1">Number2</label>
+      <p id="note"></p>
+      <label for="num2">Number2</label>
       <input type="text" id="num2" name="secondnumber" placeholder="Your second number..">
+      <p id="note"></p>
       <button onclick="Process()">Process</button> <br>
-      <div id="resultSum" class="Result">0</div>
-      <div id="resultMinus" class="Result">0</div>
+      <label for="resultSum"><b>Sum</b></label>
+      <input id="resultSum" class="Result" value="0"><br>
+      <label for="resultMinus"><b>Minus</b></label>
+      <input id="resultMinus" class="Result" value="0">
     </div>
   </div>
 </body>

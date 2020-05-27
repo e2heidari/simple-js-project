@@ -7,8 +7,15 @@ function Process() {
   var minus = number1 - number2;
 
   var resultSumDiv = document.getElementById("resultSum");
-  resultSumDiv.innerText = sum;
+  resultSumDiv.value = sum;
   var resultMinusDiv = document.getElementById("resultMinus");
-  resultMinusDiv.innerText = minus;
+  resultMinusDiv.value = minus;
 
+  if ("num1", "num2" != Number) {
+    greeting = "It's wrong";
+  }
+  else {
+    greeting = "";
+  }
+  document.getElementById("note").innerHTML = greeting;
 }
