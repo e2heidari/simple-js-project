@@ -11,11 +11,19 @@ function Process() {
   var resultMinusDiv = document.getElementById("resultMinus");
   resultMinusDiv.value = minus;
 
-  if ("num1", "num2" != Number) {
-    greeting = "It's wrong";
+  if (Number.isNaN(number1)) {
+    greeting1 = "It's wrong content";
   }
   else {
-    greeting = "";
+    greeting1 = "";
   }
-  document.getElementById("note").innerHTML = greeting;
+  document.getElementById("note1").innerHTML = greeting1;
+
+  if (Number.isNaN(number2)) {
+    greeting2 = "It's wrong content";
+  }
+  else {
+    greeting2 = "";
+  }
+  document.getElementById("note2").innerHTML = greeting2;
 }
